@@ -1,6 +1,6 @@
 <?php
 
-include 'functions.php'
+include __DIR__ . './functions.php';
 
 
 ?>
@@ -21,7 +21,7 @@ include 'functions.php'
     <div class='container py-5'>
         <div class='row'>
             <div class='col-auto'>
-                <form action="index.php" method='GET'>
+                <form action="./password.php" method='GET'>
                     <select name='num' class="form-select" aria-label="Default select example">
                         <option value='null'>Open this select menu</option>
                         <option value="1">1</option>
@@ -49,14 +49,6 @@ include 'functions.php'
                         <button type="submit" class="btn btn-primary">select number</button>
                     </div>
                 </form>
-            </div>
-        </div>
-        <div class='row'>
-            <div class='col'>
-                Password: '
-                <?php
-                echo generatePassword($selected_num, $characters_list);
-                ?>'
             </div>
         </div>
     </div>

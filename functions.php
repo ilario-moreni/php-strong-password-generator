@@ -1,4 +1,4 @@
-<?php 
+<?php
 $selected_num = $_GET['num'];
 $characters_list = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
