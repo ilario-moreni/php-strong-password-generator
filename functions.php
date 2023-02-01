@@ -1,6 +1,6 @@
 <?php
 $selected_num = $_GET['num'];
-$characters_list = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+$characters_list = '!#$%&\()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{|}~';
 
 function generatePassword($selected_num, $characters_list)
 {
